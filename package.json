@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "tslint \"src/**/*.ts\"",
+    "predeploy": "npm test && npm run lint",
+    "deploy": "ng github-pages:deploy",
+    "test": "ng test --single-run=true ",
+    "test:watch": "ng test",
+    "pree2e": "webdriver-manager update",
+    "e2e": "protractor"
   },
   "private": true,
   "dependencies": {
