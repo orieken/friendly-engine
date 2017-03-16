@@ -4,7 +4,8 @@
 }
 nav {
   width: 200px;
-  background-color: #272d3b;
+  background-color: #a9fdcb;
+  /*background-color: #272d3b;*/
   /*border: 1px solid #898D98;*/
 }
 
@@ -47,9 +48,21 @@ nav {
 .header,
 .footer {
   height: 10vh;
-  color: #27c97b;
-  background-color: #272d3b;
+  color: #c0c3c1;
+  /*color: #69F0AE;*/
+  background-color: #a9fdcb;
+  /*background-color: #272d3b;*/
   /*border-color: #898D98;*/
   -webkit-transition: font-size 0.5s linear;
   transition: font-size 0.5s linear;
+}
+
+.mat-button.mat-accent, .mat-icon-button.mat-accent {
+  color: #c0c3c1;
+}
+
+.pepamint {
+  color: #ffdad0;
+  background-color: #a9fdcb;
+  forground-color: #c0c3c1
 }
