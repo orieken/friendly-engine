@@ -1,0 +1,55 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  width: 200px;
+  background-color: #272d3b;
+  /*border: 1px solid #898D98;*/
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-column {
+  margin-left: 10px;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.flexbox,
+.flexbox-item {
+  display: -webkit-flex;	/* Chrome 21+ */
+  display: flex;			/* Opera 12.1, Firefox 22+ */
+
+  /* Align and distribute flex items on the main axis (horizontally) */
+  -webkit-justify-content: center;
+  justify-content: center;
+
+  /* Align and distribute flex items on the cross axis (vertically) */
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.flexbox-item {
+  /**
+   * Viewport Units
+   *
+   * A viewport unit (vh/vw) is relative to the viewport size
+   * 1 viewport unit = 1% of the viewport
+   */
+  height: 80vh;
+}
+
+.header,
+.footer {
+  height: 10vh;
+  color: #27c97b;
+  background-color: #272d3b;
+  /*border-color: #898D98;*/
+  -webkit-transition: font-size 0.5s linear;
+  transition: font-size 0.5s linear;
+}
