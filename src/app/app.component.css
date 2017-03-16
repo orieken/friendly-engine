@@ -4,7 +4,7 @@
 }
 nav {
   width: 200px;
-  background-color: #a9fdcb;
+  background-color: #7fc48f;
   /*background-color: #272d3b;*/
   /*border: 1px solid #898D98;*/
 }
@@ -48,9 +48,9 @@ nav {
 .header,
 .footer {
   height: 10vh;
-  color: #c0c3c1;
+  color: #cf6e8a;
   /*color: #69F0AE;*/
-  background-color: #a9fdcb;
+  background-color: #7fc48f;
   /*background-color: #272d3b;*/
   /*border-color: #898D98;*/
   -webkit-transition: font-size 0.5s linear;
@@ -58,11 +58,17 @@ nav {
 }
 
 .mat-button.mat-accent, .mat-icon-button.mat-accent {
-  color: #c0c3c1;
+  color: #cf6e8a;
 }
 
 .pepamint {
   color: #ffdad0;
+  forground-color: #c0c3c1;
   background-color: #a9fdcb;
-  forground-color: #c0c3c1
+}
+
+.peach-pantha {
+  color: #d19387;
+  foreground-color: #7fc48f;
+  background-color: #18411b;
 }
