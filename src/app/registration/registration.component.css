@@ -10,11 +10,10 @@
   padding-bottom: 20px;
 }
 
-/*.registration-full-width {*/
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: space-around;*/
-/*}*/
+.registration-full-width {
+  display: flex;
+  align-items: center;
+}
 
 form h1 {
   color: #d19387;
@@ -22,4 +21,8 @@ form h1 {
 
 .mat-button.mat-accent, .mat-icon-button.mat-accent {
   color: #cf6e8a;
+}
+
+.registration-form--bottom {
+  /*align-self: flex-end;*/
 }
