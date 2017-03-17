@@ -1,0 +1,25 @@
+.registration-container {
+  background-color: #7fc48f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-form {
+  max-width: 60%;
+  padding-bottom: 20px;
+}
+
+/*.registration-full-width {*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: space-around;*/
+/*}*/
+
+form h1 {
+  color: #d19387;
+}
+
+.mat-button.mat-accent, .mat-icon-button.mat-accent {
+  color: #cf6e8a;
+}
