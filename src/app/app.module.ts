@@ -9,6 +9,7 @@ import 'hammerjs';
 import { ExamplesComponent } from './examples/examples.component';
 import { Routes, RouterModule } from '@angular/router';
 import { RegistrationComponent } from './registration/registration.component';
+import { AdvancedRegistrationComponent } from './advanced-registration/advanced-registration.component';
 
 const appRoutes: Routes = [
   { path: 'examples', component: ExamplesComponent },
@@ -19,7 +20,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     ExamplesComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    AdvancedRegistrationComponent
   ],
   imports: [
     BrowserModule,

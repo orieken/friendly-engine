@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registration.component.css']
 })
 export class RegistrationComponent implements OnInit {
+  showAdvancedForm = false;
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  constructor() {}
+  ngOnInit() {}
 
 }

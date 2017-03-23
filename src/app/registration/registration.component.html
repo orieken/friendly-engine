@@ -3,12 +3,19 @@
     <div class="registration-full-width">
       <h1>Simple Registration</h1>
     </div>
+    <div class="registration-full-width">
+      <md-checkbox [(ngModel)]="showAdvancedForm" name="Advanced Form">Advanced Form</md-checkbox>
+    </div>
     <md-input-container class="registration-full-width">
       <input mdInput id="first_name" value="" placeholder="First Name" required>
     </md-input-container>
     <md-input-container class="registration-full-width">
       <input mdInput id="last_name" value="" placeholder="Last Name" required>
     </md-input-container>
+    <md-input-container class="registration-full-width">
+      <input mdInput id="email" value="" placeholder="Email Address" required>
+    </md-input-container>
+    <app-advanced-registration *ngIf="showAdvancedForm"></app-advanced-registration>
     <div class="registration-full-width">
       <button md-button color="accent">Submit</button>
     </div>
