@@ -5,12 +5,13 @@
   justify-content: center;
 }
 
-.registration-form {
+::shadow .registration-form {
   max-width: 60%;
   padding-bottom: 20px;
 }
 
-.registration-full-width {
+
+::shadow .registration-full-width {
   display: flex;
   align-items: center;
 }
@@ -19,10 +20,10 @@ form h1 {
   color: #d19387;
 }
 
-.mat-button.mat-accent, .mat-icon-button.mat-accent {
+::shadow .mat-button.mat-accent, .mat-icon-button.mat-accent {
   color: #cf6e8a;
 }
 
-.registration-form--bottom {
+::shadow .registration-form--bottom {
   /*align-self: flex-end;*/
 }

@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-advanced-registration',
   templateUrl: './advanced-registration.component.html',
-  styleUrls: ['./advanced-registration.component.css']
+  styleUrls: ['./advanced-registration.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class AdvancedRegistrationComponent implements OnInit {
 
