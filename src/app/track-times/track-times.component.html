@@ -1,0 +1,9 @@
+<div class="registration-container" flexbox>
+  <div class="registration-full-width">
+  <md-select id="car-list" placeholder="Top Gear - Track Times">
+    <md-option *ngFor="let car of cars" [value]="car.id">
+      {{ car.make }} - {{ car.model }}
+    </md-option>
+  </md-select>
+  </div>
+</div>

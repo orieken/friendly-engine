@@ -5,15 +5,21 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MaterialModule } from '@angular/material';
-import 'hammerjs';
+
 import { ExamplesComponent } from './examples/examples.component';
 import { Routes, RouterModule } from '@angular/router';
 import { RegistrationComponent } from './registration/registration.component';
 import { AdvancedRegistrationComponent } from './advanced-registration/advanced-registration.component';
+import { TrackTimesComponent } from './track-times/track-times.component';
+import { CarsService } from './services/cars.service';
+
+import 'hammerjs';
+import { CarDetailsComponent } from './car-details/car-details.component';
 
 const appRoutes: Routes = [
   { path: 'examples', component: ExamplesComponent },
-  { path: 'registration', component: RegistrationComponent }
+  { path: 'registration', component: RegistrationComponent },
+  { path: 'track-times', component: TrackTimesComponent }
 ];
 
 @NgModule({
@@ -21,7 +27,9 @@ const appRoutes: Routes = [
     AppComponent,
     ExamplesComponent,
     RegistrationComponent,
-    AdvancedRegistrationComponent
+    AdvancedRegistrationComponent,
+    TrackTimesComponent,
+    CarDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +38,9 @@ const appRoutes: Routes = [
     MaterialModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [
+    CarsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
