@@ -9,10 +9,11 @@ describe('Track Times Page', () => {
   });
 
   it('should have a list of cars', () => {
+    let carsArray = ['Pagani - Huayra', 'Ariel - Atom V8 500', 'Noble - M600', 'Audi - R8 V10']
     expect(page.carList).toBeDefined();
     page.carList.click();
     page.getCarListOptions().then((values) => {
-      expect(values).toEqual(['Pagani - Huayra', 'Ariel - Atom V8 500', 'Noble - M600', 'Audi - R8 V10']);
+      expect(values).toEqual(carsArray);
     });
   });
 });
