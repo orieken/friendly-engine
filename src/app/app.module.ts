@@ -15,6 +15,7 @@ import { CarsService } from './services/cars.service';
 
 import 'hammerjs';
 import { CarDetailsComponent } from './car-details/car-details.component';
+import { JokeComponent } from './joke/joke.component';
 
 const appRoutes: Routes = [
   { path: 'examples', component: ExamplesComponent },
@@ -29,7 +30,8 @@ const appRoutes: Routes = [
     RegistrationComponent,
     AdvancedRegistrationComponent,
     TrackTimesComponent,
-    CarDetailsComponent
+    CarDetailsComponent,
+    JokeComponent
   ],
   imports: [
     BrowserModule,

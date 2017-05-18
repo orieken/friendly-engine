@@ -285,7 +285,8 @@ export const CARS: Car[] = [
  DNS	Ferrari F40 (Car did not start; Broke down at the start line)	Series 16, Episode 6
  Non-qualifying Vehicles[edit]
  Tested, but subsequently removed from board[edit]
- 0:31.2 – BAE Sea Harrier[8] (Piloted by Lieutenant Nick Arkle RN.[9] Raced against the Saab 9-5 Aero. Took off then flew around track, ended in the air)
+ 0:31.2 – BAE Sea Harrier[8] (Piloted by Lieutenant Nick Arkle RN.[9] Raced against the Saab 9-5 Aero.
+ Took off then flew around track, ended in the air)
  0:59.0 – Renault R24 Formula One car[10] (Wet)
  1:03.8 – Lotus T125
  1:08.5 – Pagani Zonda R[11]
@@ -293,25 +294,34 @@ export const CARS: Car[] = [
  1:10.6 – Caparo T1[13]
  1:10.7 – Ferrari FXX[14] (Driven by Michael Schumacher on slick tyres)
  1:14.0 – Lamborghini Sesto Elemento
- – CAP 232 Aerobatic Plane[15] (Piloted by British Aerobatic Champion, Tom Cassells.[16] Raced against the Radical SR3 and was shown crossing the finish line in front, however the time was not shown.)
+ – CAP 232 Aerobatic Plane[15] (Piloted by British Aerobatic Champion, Tom Cassells.[16] Raced against
+ the Radical SR3 and was shown crossing the finish line in front, however the time was not shown.)
  1:19.1 – Radical SR3[15]
  1:22.6 – Westfield XTR2[17]
  Driven to establish times in challenges[edit]
- 1:35.9 – 2010 BMW 325i (E93) (Driven as modern-day equivalent to set target time for the late '80s BMW 325i (E30)s in the '4-seat convertibles for under £2,000' challenge.) (wet, top open)
+ 1:35.9 – 2010 BMW 325i (E93) (Driven as modern-day equivalent to set target time for the late
+ '80s BMW 325i (E30)s in the '4-seat convertibles for under £2,000' challenge.) (wet, top open)
  1:42.0 – Rover 416 GTI (Hammond's car in the '£100 car' challenge.)
  1:43.0 – Porsche 944 (May's car in the '£1500 Porsche' Challenge.)
- – Porsche 924 (Hammond's car in '£1500 Porsche' Challenge, time was not said but they did say it was slower than May's 944.)
+ – Porsche 924 (Hammond's car in '£1500 Porsche' Challenge, time was not said but they
+ did say it was slower than May's 944.)
  1:45.0 – Porsche 928 (Clarkson's car in '£1500 Porsche' Challenge.)
  1:46.0 – Audi 80 1.8E (May's car in '£100 car' challenge.)
  1:48.0 – Volvo 760 GLE V6 (Clarkson's car in '£100 car' challenge.)
- 1:48.0 – Vauxhall Astra Diesel Police car (Driven as modern-day equivalent to set target time in 'Budget Police Car' challenge.)
- 1:48.0 – 1988 BMW 325i (E30) convertible (Clarkson's car in '4-seat convertibles for under £2,000' challenge, automatic and paving slab in boot. Driven by Clarkson.)
- 1:55.3 – 1987 BMW 325i (E30) convertible (Hammond's car in '4-seat convertibles for under £2,000' challenge, lowered suspension. Driven by Hammond.)
- 1:55.4 – 1989 BMW 325i (E30) convertible (May's car in '4-seat convertibles for under £2,000' challenge, standard specification. Driven by May.)
+ 1:48.0 – Vauxhall Astra Diesel Police car (Driven as modern-day equivalent to set target time
+ in 'Budget Police Car' challenge.)
+ 1:48.0 – 1988 BMW 325i (E30) convertible (Clarkson's car in '4-seat convertibles for
+ under £2,000' challenge, automatic and paving slab in boot. Driven by Clarkson.)
+ 1:55.3 – 1987 BMW 325i (E30) convertible (Hammond's car in '4-seat convertibles for
+ under £2,000' challenge, lowered suspension. Driven by Hammond.)
+ 1:55.4 – 1989 BMW 325i (E30) convertible (May's car in '4-seat convertibles for
+ under £2,000' challenge, standard specification. Driven by May.)
  2:00.0 – Lexus LS400 (May's police car in 'Budget Police Car' Challenge, driven by May.)
- 2:08.0 – Fiat Coupé 2.0 20v Turbo (Clarkson's police car in 'Budget Police Car' Challenge, driven by Clarkson.)
+ 2:08.0 – Fiat Coupé 2.0 20v Turbo (Clarkson's police car in 'Budget Police Car'
+ Challenge, driven by Clarkson.)
  2:57.0 – JCB Fastrac 8250 (Clarkson's tractor in the 'Tractor' Challenge.)
- 3:14.0 – Suzuki Vitara 1.6 JLX (Hammond's police car in 'Budget Police Car' Challenge, driven by Hammond. Hammond left the track to drive through piled cardboard boxes, and increase his "style points".)
+ 3:14.0 – Suzuki Vitara 1.6 JLX (Hammond's police car in 'Budget Police Car' Challenge,
+ driven by Hammond. Hammond left the track to drive through piled cardboard boxes, and increase his "style points".)
  3:28.4 – Fendt 930 Vario (May's tractor in the 'Tractor' Challenge.)
  4:49.0 – Case STX Steiger (Hammond's tractor in the 'Tractor' Challenge.)
 

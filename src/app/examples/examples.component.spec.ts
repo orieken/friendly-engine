@@ -8,18 +8,25 @@ describe('ExamplesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExamplesComponent ]
+      declarations: [ExamplesComponent]
     })
-    .compileComponents();
+        .compileComponents();
   }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ExamplesComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
+  });
+
+  it('fooooo', () => {
+    expect(function () {
+          component.ngOnInit();
+        }
+    ).toThrow(new Error('OMG!'));
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });

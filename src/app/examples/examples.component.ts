@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./examples.component.css']
 })
 export class ExamplesComponent implements OnInit {
+  bar: any;
 
-  constructor() { }
-
+  constructor() {}
   ngOnInit() {
+    this.foo()
   }
 
+  private foo() {
+    if(!this.bar){
+      throw new Error('OMG!')
+    }
+    return 'hi'
+  }
 }
